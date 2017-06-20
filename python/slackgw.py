@@ -14,3 +14,4 @@ def chanmsg_cb(word, word_eol, userdata):
   return hexchat.EAT_NONE
 
 hexchat.hook_print("Channel Message", chanmsg_cb)
+hexchat.hook_print("Channel Msg Hilight", chanmsg_cb)
